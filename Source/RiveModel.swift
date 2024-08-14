@@ -9,6 +9,7 @@
 import Foundation
 import Combine
 
+@available(macOS 13.1, *)
 @objc open class RiveModel: NSObject, ObservableObject {
     // NOTE: the order here determines the order in which memory garbage collected
     public internal(set) var stateMachine: RiveStateMachineInstance?

@@ -8,6 +8,7 @@
 
 import Foundation
 
+@available(macOS 13.1, *)
 open class RiveView: RiveRendererView {
     // MARK: Configuration
     internal weak var riveModel: RiveModel?
