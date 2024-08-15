@@ -8,7 +8,7 @@
 
 import Foundation
 
-@available(macOS 13.1, *)
+@available(macOS 13.1, iOS 14.0, *)
 open class RiveView: RiveRendererView {
     // MARK: Configuration
     internal weak var riveModel: RiveModel?
@@ -465,6 +465,7 @@ open class RiveView: RiveRendererView {
     @objc optional func onRiveEventReceived(onRiveEvent riveEvent: RiveEvent)
 }
 
+@available(macOS 13.1, *)
 @objc public protocol RivePlayerDelegate: AnyObject {
     func player(playedWithModel riveModel: RiveModel?)
     func player(pausedWithModel riveModel: RiveModel?)

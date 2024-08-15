@@ -783,7 +783,7 @@
 					"${PROJECT_DIR}/dependencies/release",
 					"${PROJECT_DIR}/dependencies",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 0.6.5;
 				OTHER_CFLAGS = (
 					"-fembed-bitcode",
@@ -866,7 +866,7 @@
 					"${PROJECT_DIR}/dependencies/release",
 					"${PROJECT_DIR}/dependencies",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 0.6.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_CFLAGS = (
